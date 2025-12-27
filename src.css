@@ -1,0 +1,175 @@
+html {
+    background: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileBar {
+    
+    position: fixed;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.uiBar {
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 10px;
+    width: 95%;
+    height: 60px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 1.5rem;
+    gap: 100px;
+    overflow: hidden;
+}
+
+.ee {
+    display: flex;
+    flex-direction: column;
+}
+
+.podText {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgb(201, 201, 201);
+}
+
+.uiTextMobile {
+    color: rgb(224, 224, 224);
+    font-family: gr;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.noneLines {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.lnR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.lnR::before,
+.lnR::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 65%;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+}
+
+.lnR::before {
+    transform: rotate(-45deg);
+}
+
+.lnR::after {
+    transform: rotate(45deg);
+}
+
+
+.linesBurgers {
+    width: 50%;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+}
+
+.oneTitle {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    font-family: gr;
+    font-size: 1.8rem;
+    display: flex;
+    color: rgb(224, 224, 224);
+}
+
+.subh {
+    display: flex;
+    justify-content: center;
+    font-family: gr;
+    font-size: 0.95rem;
+    color: rgba(224, 224, 224, 0.699);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: "gr";  
+  src: url("Gothic60-Regular.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "sn";  
+  src: url("SyncopateRus.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
